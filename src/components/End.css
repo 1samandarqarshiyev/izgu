@@ -1,0 +1,14 @@
+.footer_menu{
+    background-color: #2A2A2A;
+    display: flex;
+    align-items: center;
+}
+.footer_text_end{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.button_tel{
+    text-decoration: none;
+    color: white;
+}
