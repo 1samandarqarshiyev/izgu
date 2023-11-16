@@ -53,6 +53,7 @@ function Myfunc(){
             {ikkinchi && <Facemain3/>}
         </div>
 
+ 
         {/* Saytning footer qismi */}
         <Footermain/>
         </>
