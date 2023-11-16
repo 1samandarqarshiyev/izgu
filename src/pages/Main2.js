@@ -21,7 +21,7 @@ function Example() {
 
   return (
     <>
-      <Button onClick={secondmain} as="input" type="submit" className="me-2 button_navbar" value="Oбратный звонок"/>
+      <Button onClick={secondmain} as="input" type="submit" className="me-2 button_navbar_1" value="Oбратный звонок"/>
       
       <Modal size="sm" show={smShow} onHide={() => setSmShow(false)} aria-labelledby="example-modal-sizes-title-sm">
         <Modal.Header closeButton>
