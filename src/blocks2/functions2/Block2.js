@@ -4,12 +4,12 @@ import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import './Style.css';
+import './Main2.css';
 //
-import Block from './Block';
-import Block2 from './Block2';
-import Block3 from './Block3';
-import Block4 from './Block4';
+import Item from './Item';
+import Item2 from './Item2';
+import Item3 from './Item3';
+import Item4 from './Item4';
 
 
 function Example() {
@@ -35,22 +35,22 @@ function Example() {
 
             <Row>
               <Col xl={6} lg={6} md={6} sm={6} xs={6} s={12}>
-                <Block/>
+                <Item/>
               </Col>
               <Col xl={6} lg={6} md={6} sm={6} xs={6} s={12}>
-                <Block2/>
+                <Item2/>
               </Col>
             </Row>
 
             <Row>
               <Col xl={12} lg={12} md={12} sm={12} xs={12} s={12}>
-                <Block3/>
+                <Item3/>
               </Col>
             </Row>
 
             <Row>
               <Col xl={12} lg={12} md={12} sm={12} xs={12} s={12}>
-                <Block4/>
+                <Item4/>
               </Col>
             </Row>
 

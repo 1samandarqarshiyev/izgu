@@ -3,16 +3,73 @@
     border: 0px;
     border-radius: 16px;
     margin-right: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .button_navbar{
     background-color: white;
     border: 0px;
     border-radius: 16px;
     color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
 }
 .button_navbar:hover{
     background-color: white;
     border: 0px;
     border-radius: 16px;
     color: black;
+}
+.modaltext1{
+    font-size: 60%;
+    font-weight: 400;
+    color: #B0BABF;
+    margin-bottom: 0px;
+}
+.modaltext2{
+    color: black;
+    font-size: 80%;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.modal_input{
+    font-size: 72%;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+}
+.modal_input:hover{
+    border: 1px #0D9676 solid;
+}
+/* .modal_input:active{
+    border: 1px #0D9676 solid;
+} */
+.modal_input_block{
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.modalcoment_block{
+    font-size: 75%;
+    margin-top: 0px;
+}
+.modalcoment{
+    background-color: rgb(255, 255, 255);
+    font-size: 120%;
+    margin: 3% auto 3% auto;
+}
+/* .modalcoment:active{
+    border: 1px red solid;    
+} */
+.modalcoment:hover{
+    border: 1px #0D9676 solid;
+}
+.modalbutton{
+    background-color: #0D9676;
+    width: 100%;
+    border: 0px;
+    border-radius: 8px;
 }
